@@ -29,6 +29,7 @@ def busca_custo_uniforme(grid, pos_inicial, pos_tesouro):
     heapq.heappush(fila, (0, pos_inicial, [pos_inicial]))  # custo, posição, caminho
 
     while fila:
+        print(f"Fila: {fila}")
         custo, atual, caminho = heapq.heappop(fila)
         x, y = atual
 
