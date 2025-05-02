@@ -1,13 +1,9 @@
 import heapq
 
 grid = [
-    ['I', '#', '.', '#', 'L', 'L', 'T'],
-    ['.', '#', '.', '#', 'L', '#', '.'],
-    ['.', '#', '.', '#', 'L', '#', '.'],
-    ['.', '#', '.', '.', '.', '#', '.'],
-    ['.', '#', '.', '#', '.', '#', '.'],
-    ['.', '#', '.', '#', '.', '#', '.'],
-    ['.', '.', '.', '#', '.', '.', '.'],
+    ['I', '.', 'L', 'L', 'L', '.', 'T'],
+    ['.', '.', '.', 'L', '.', '.', '.'],
+    ['.', '.', '.', '.', '.', '.', '.'],
 ]
 
 pos_inicial = (0, 0)
@@ -53,5 +49,4 @@ def busca_custo_uniforme(grid, pos_inicial, pos_tesouro):
 
 # Executar
 caminho = busca_custo_uniforme(grid, pos_inicial, pos_tesouro)
-
-print(caminho)
+print("Caminho encontrado:", caminho)
