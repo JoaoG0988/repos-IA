@@ -1,4 +1,5 @@
 .vscode
 *.pptx
 testes.py
+venv/
 
