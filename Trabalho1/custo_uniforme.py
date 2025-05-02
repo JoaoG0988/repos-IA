@@ -50,4 +50,4 @@ def busca_custo_uniforme(grid, pos_inicial, pos_tesouro):
 
 # Executar
 caminho = busca_custo_uniforme(grid, pos_inicial, pos_tesouro)
-print("Caminho encontrado:", caminho)
+print(caminho)
